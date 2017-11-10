@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+       <html lang="en">
+         <head>
+           <meta charset="utf-8">
+           <meta http-equiv="X-UA-Compatible" content="IE=edge">
+           <meta name="viewport" content="width=device-width, initial-scale=1">
+           <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+           <meta name="description" content="">
+           <meta name="author" content="">
+           <link rel="icon" href="favicon.ico">
+
+           <title>Carousel Template for Bootstrap</title>
+
+           <!-- Bootstrap core CSS -->
+           <link href="css/bootstrap.min.css" rel="stylesheet">
+
+           <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+           <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+           <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+           <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+           <script src="js/ie-emulation-modes-warning.js"></script>
+
+           <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+           <!--[if lt IE 9]>
+             <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+           <![endif]-->
+
+           <!-- Custom styles for this template -->
+           <link href="css/carousel.css" rel="stylesheet">
+
+                  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+                  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+                  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+                  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+                  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+                  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+                  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+                  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+                  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+                  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+                  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+                  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+                  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+
+
+                  <meta property="og:site_name" content="Имя в соц сетях">
+                  <meta property="og:title" content="Краткое описание в соц сетях, название.">
+                  <meta property="og:description" content="Описание в соц сетях, более развернутое. ">
+                  <meta property="og:image" content="http://macovka.ru/img/0.jpg">
+                  <meta property="og:url" content="http://macovka.ru/">
+                  <meta property="og:type" content="website">
+
+         </head>
+       <!-- NAVBAR
+       ================================================== -->
+         <body>
+           <div class="navbar-wrapper">
+             <div class="container">
+
+               <nav class="navbar navbar-inverse navbar-static-top">
+                 <div class="container">
+                   <div class="navbar-header">
+                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                       <span class="sr-only">Toggle navigation</span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                     </button>
+                     <a class="navbar-brand" href="#">Project name</a>
+                   </div>
+                   <div id="navbar" class="navbar-collapse collapse">
+                     <ul class="nav navbar-nav">
+                       <li class="active"><a href="#">Home</a></li>
+                       <li><a href="#about">About</a></li>
+                       <li><a href="#contact">Contact</a></li>
+                       <li class="dropdown">
+                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                         <ul class="dropdown-menu">
+                           <li><a href="#">Action</a></li>
+                           <li><a href="#">Another action</a></li>
+                           <li><a href="#">Something else here</a></li>
+                           <li role="separator" class="divider"></li>
+                           <li class="dropdown-header">Nav header</li>
+                           <li><a href="#">Separated link</a></li>
+                           <li><a href="#">One more separated link</a></li>
+                         </ul>
+                       </li>
+                     </ul>
+                   </div>
+                 </div>
+               </nav>
+
+             </div>
+           </div>
+
+
+           <!-- Carousel
+           ================================================== -->
+           <div id="myCarousel" class="carousel slide" data-ride="carousel">
+             <!-- Indicators -->
+             <ol class="carousel-indicators">
+               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+               <li data-target="#myCarousel" data-slide-to="1"></li>
+               <li data-target="#myCarousel" data-slide-to="2"></li>
+             </ol>
+             <div class="carousel-inner" role="listbox">
+               <div class="item active">
+                 <img class="first-slide" src="img/test2.svg" alt="First slide">
+                 <div class="container">
+                   <div class="carousel-caption">
+                     <h1>Perfect Your Shots with Rich Set of Photo Editing Tools</h1>
+                      <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                   </div>
+                 </div>
+               </div>
+               <div class="item">
+                 <img class="second-slide" src="img/test2.svg" alt="Second slide">
+                 <div class="container">
+                   <div class="carousel-caption">
+                     <h1>Retouch and Correct Images Like a Professional with Few Clicks</h1>
+                      <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                   </div>
+                 </div>
+               </div>
+               <div class="item">
+                 <img class="third-slide" src="img/test2.svg" alt="Third slide">
+                 <div class="container">
+                   <div class="carousel-caption">
+                     <h1>Enjoy Beautiful Filters and Effects for Your Pictures</h1>
+                      <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+               <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+             </a>
+             <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+               <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+             </a>
+           </div><!-- /.carousel -->
+
+
+           <!-- Marketing messaging and featurettes
+           ================================================== -->
+           <!-- Wrap the rest of the page in another container to center all the content. -->
+
+
+           <div class="container marketing">
+             <div>
+               <h2 class="featurette-heading">ARTIPIC IN ACTION <span class="text-muted"> </span></h2>
+             </div>
+
+
+
+             <!-- START THE FEATURETTES -->
+<style>
+li {
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+.featurette-heading{
+  margin: 120px;
+  text-align:center!important;
+}
+</style>
+             <hr class="featurette-divider">
+
+             <div class="row featurette">
+               <div class="col-md-7">
+                 <h2 class="featurette-heading">  <span class="text-muted"> </span></h2>
+
+                 <p class="lead"><li> Easy-to-use tools to edit your photos like a pro </li>
+                   <li> Rich set of presets and filters</li>
+                   <li>Layers and masks to compose collages and posters</li>
+                   <li>Powerful batch image</li> </p>
+               </div>
+               <div class="col-md-5">
+                 <img class="featurette-image img-responsive center-block" src="img/test.svg" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+               </div>
+             </div>
+
+             <hr class="featurette-divider">
+
+             <div class="row featurette">
+               <div class="col-md-7 col-md-push-5">
+                 <h2 class="featurette-heading">  <span class="text-muted"> </span></h2>
+                 <p class="lead"><li>Easy-to-use tools to edit your photos like a pro</li>
+                   <li>Rich set of presets and filters</li>
+                   <li>Layers and masks to compose collages and posters</li>
+                   <li>Powerful batch image</li> </p>
+               </div>
+               <div class="col-md-5 col-md-pull-7">
+                 <img class="featurette-image img-responsive center-block" src="img/test.svg" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+               </div>
+             </div>
+
+             <hr class="featurette-divider">
+
+             <div class="row featurette">
+               <div class="col-md-7">
+                 <h2 class="featurette-heading">  <span class="text-muted"> </span></h2>
+                 <p class="lead"><li>Easy-to-use tools to edit your photos like a pro</li>
+                   <li>Rich set of presets and filters</li>
+                   <li>Layers and masks to compose collages and posters</li>
+                   <li>Powerful batch image</li> </p>
+               </div>
+               <div class="col-md-5">
+                 <img class="featurette-image img-responsive center-block" src="img/test.svg" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+               </div>
+             </div>
+
+             <hr class="featurette-divider">
+
+             <!-- /END THE FEATURETTES -->
+
+
+             <!-- INSTAGRAMM -->
+<div>
+             <h2 class="featurette-heading">YOU DON’T NEEED PHOTOSHOP TO TURN YOUR PHOTOS INTO A PIECE OF ART<span class="text-muted"> </span></h2>
+
+             <!-- LightWidget WIDGET -->
+             <iframe src-"http://lightwidget.com/widgets/fc254499c49d56018842fdb2becca4f3.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;">
+             </iframe>
+</div>
+
+             <!-- FOOTER -->
+             <footer>
+               <p class="pull-right"><a href="#">Back to top</a></p>
+               <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+             </footer>
+
+           </div><!-- /.container -->
+
+
+           <!-- Bootstrap core JavaScript
+           ================================================== -->
+           <!-- Placed at the end of the document so the pages load faster -->
+           <script src="http://lightwidget.com/widgets/lightwidget.js"></script>
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+           <script> window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+           <script src="js/bootstrap.min.js"></script>
+           <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+           <script src="js/holder.min.js"></script>
+           <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+           <script src="js/ie10-viewport-bug-workaround.js"></script>
+         </body>
+       </html>
